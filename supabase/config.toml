@@ -1,0 +1,2 @@
+[functions.issac-guest-book]
+verify_jwt = false
