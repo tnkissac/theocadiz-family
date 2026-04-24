@@ -145,6 +145,36 @@
     </div>
   </section>
 
+  <!-- VISITOR REGISTRY -->
+  <section class="section registry fade-section" id="registry">
+    <div class="container container--narrow">
+      <h2 class="section-title">Sign Our Registry</h2>
+      <p class="registry-sub">We'd love to know you stopped by. Leave your name and we'll send you a little note from our family to yours.</p>
+      <form class="registry-form" id="registryForm">
+        <div class="form-group">
+          <label for="reg-name">Your Name</label>
+          <input type="text" id="reg-name" name="name" placeholder="Jane Smith" required>
+        </div>
+        <div class="form-group">
+          <label for="reg-email">Your Email</label>
+          <input type="email" id="reg-email" name="email" placeholder="jane@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="reg-message">Leave a Message <span class="form-optional">(optional)</span></label>
+          <textarea id="reg-message" name="message" placeholder="Say hello, share a memory, or just wave 👋" rows="4"></textarea>
+        </div>
+        <button type="submit" class="form-btn" id="formBtn">Sign the Registry</button>
+        <div class="form-success" id="formSuccess">
+          <span>🤍</span>
+          <p>Thank you! A note from our family is on its way to your inbox.</p>
+        </div>
+        <div class="form-error" id="formError">
+          <p>Something went wrong. Please try again.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer class="footer">
     <p class="footer-name">The Ocadiz Family</p>
