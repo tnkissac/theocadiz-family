@@ -382,7 +382,7 @@ img {
 }
 
 @supports (aspect-ratio: 1 / 1) {
-  .gallery-tile img { position: static; }
+  .gallery-tile img { position: relative; z-index: 1; }
 }
 
 .gallery-tile:hover img {
